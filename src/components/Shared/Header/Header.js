@@ -22,7 +22,7 @@ const Header = () => {
                     </Nav>
 
                     <Nav>
-                        <Nav.Link as={Link} to=''>
+                        <Nav.Link as={Link} to='/login'>
                             <button className='btn btn-primary fw-bold' style={{ width: '150px', height: '40px' }}>Register</button>
                         </Nav.Link>
                         <Nav.Link as={Link} to=''>
