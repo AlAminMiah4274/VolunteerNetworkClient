@@ -17,10 +17,10 @@ const Login = () => {
                 <h2 className='text-center fw-bold mb-3'>Login With</h2>
                 <Form>
                     <Form.Group className="mb-3" controlId="formGroupEmail">
-                        <Form.Control type="email" placeholder="Enter email" />
+                        <Form.Control type="email" placeholder="Enter email" required />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formGroupPassword">
-                        <Form.Control type="password" placeholder="Password" />
+                        <Form.Control type="password" placeholder="Password" required />
                     </Form.Group>
                     <Button className='w-100 fw-bold' variant="primary" type="submit">
                         Submit
